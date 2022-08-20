@@ -13,7 +13,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Image from "next/image";
-import Logo from "../public/logo.png";
+import Logo from "../public/cmgLogo2.png";
 const footer = () => {
   return (
     <div>
@@ -48,8 +48,8 @@ const footer = () => {
               </div>
             </div>
           </div>
-          <div className="grid lg:grid-cols-4 gap-8">
-            <div className="col-span-1 space-y-8">
+          <div className="">
+            <div className="">
               <Image src={Logo} alt="Logo" />
 
               <p className="text-gray-500">
@@ -58,7 +58,7 @@ const footer = () => {
                 limousine and private transportation company.
               </p>
             </div>
-            <div className="col-span-1 space-y-8">
+            {/* <div className="col-span-1 space-y-8">
               <div className="flex flex-col space-y-2">
                 <p className="text-gray-600 font-medium">OUR SERVICES</p>
                 <p className="border-solid border border-amber-500  w-1/4 "></p>
@@ -85,8 +85,8 @@ const footer = () => {
                   <p className="text-gray-500">Nationwide Transportation</p>
                 </div>
               </div>
-            </div>
-            <div className="col-span-1 space-y-8">
+            </div> */}
+            {/* <div className="col-span-1 space-y-8">
               <div className="flex flex-col space-y-2">
                 <p className="text-gray-600 font-medium">DriverUP</p>
                 <p className="border-solid border border-amber-500  w-1/4 "></p>
@@ -115,8 +115,8 @@ const footer = () => {
                   <p className="text-gray-500">Mon-Sat: 07:00 - 17:00</p>
                 </div>
               </div>
-            </div>
-            <div className="col-span-1 space-y-8">
+            </div> */}
+            {/* <div className="col-span-1 space-y-8">
               <div className="flex flex-col space-y-2">
                 <p className="text-gray-600 font-medium">SUBSCRIBE</p>
                 <p className="border-solid border border-amber-500  w-1/4 "></p>
@@ -136,7 +136,7 @@ const footer = () => {
                   Submit
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

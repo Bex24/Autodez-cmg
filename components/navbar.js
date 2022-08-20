@@ -8,7 +8,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import Image from "next/image";
-import Logo from "../public/logo.png";
+import Logo from "../public/cmgLogo2.png";
 const navbar = () => {
   return (
     <div>
@@ -17,21 +17,29 @@ const navbar = () => {
           <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
             <div className="flex flex-row space-x-2">
               <FaMapMarkerAlt className="w-5 h-5 text-gray-500" />
-              <p>2507 Parker Boulevard, Oakland, CA 76107</p>
+              <p>Strada principal Nr. 452, Vlădești 247740</p>
             </div>
             <div className="flex flex-row space-x-2">
-              <FaMobileAlt className="w-5 h-5 text-gray-500" />
-              <p> (0481) 123 987 2411</p>
+                <FaMobileAlt className="w-5 h-5 text-gray-500" />
+              <a href="tel:0753917172">
+                <p> 0753 917 172</p>
+              </a>
             </div>
             <div className="flex flex-row space-x-2">
               <FaRegClock className="w-5 h-5 text-gray-500" />
-              <p>Mon-Sat: 07:00 - 17:00</p>
+              <p>Luni-Sambata: 09:00 - 18:00</p>
             </div>
           </div>
           <div className="flex flex-row space-x-4  justify-center items-center ">
-            <FaFacebook className="w-6 h-6 text-gray-500" />
-            <FaInstagram className="w-6 h-6 text-gray-500" />
-            <FaWhatsapp className="w-6 h-6 text-gray-500" />
+            <a
+              href="https://www.facebook.com/Autodezcmg/?ref=py_c"
+              target="_blank"
+            >
+              <FaFacebook className="w-6 h-6 text-gray-500" />
+            </a>
+            <a href="https://wa.me/+40753917172">
+              <FaWhatsapp className="w-6 h-6 text-gray-500" />
+            </a>
           </div>
         </div>
       </div>
@@ -43,13 +51,13 @@ const navbar = () => {
             </a>
           </Link>
           <div className="flex md:order-2">
-            <button
+            {/* <button
               type="button"
               className="text-gray-700 hover:text-white hover:bg-yellow-600 border-2 border-yellow-500   rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
             >
               GET A QUOTE
-            </button>
-            <button
+            </button> */}
+            {/* <button
               data-collapse-toggle="mobile-menu-4"
               type="button"
               className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -81,7 +89,7 @@ const navbar = () => {
                   clipRule="evenodd"
                 ></path>
               </svg>
-            </button>
+            </button> */}
           </div>
           <div
             className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
@@ -92,7 +100,7 @@ const navbar = () => {
                 <Link href="/">
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-yellow-600  md:hover:text-yellow-500 md:p-0 "
+                    className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500 md:p-0 "
                     aria-current="page"
                   >
                     HOME
@@ -100,14 +108,14 @@ const navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/aboutus">
+                {/* <Link href="/aboutus"> */}
                   <a
-                    href="#"
+                    href="#sectiononehomepage"
                     className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
                   >
                     ABOUT
                   </a>
-                </Link>
+                {/* </Link> */}
               </li>
               <li>
                 <Link href="/services">
