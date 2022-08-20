@@ -7,7 +7,7 @@ import Image4 from "../public/nissan.jpeg";
 import Image5 from "../public/subaru.jpeg";
 const Contents = () => {
   return (
-    <div className="container mx-auto py-12  space-y-20 w-full">
+    <div className="container mx-auto py-12 space-y-20 w-full sm:flex-col-reverse" id="about">
       <div className=" lg:flex lg:flex-row justify-center px-12">
         <div className="max-w-lg">
           <Image src={Image1} alt="Logo" />
@@ -26,7 +26,7 @@ const Contents = () => {
         </p>
         {/* <p className="text-xl text-gray-500">ANDRO Tomas - CHAIRMAN CEO</p> */}
       </div>
-      <div className="lg:grid lg:grid-cols-2 px-12">
+      <div className="lg:grid lg:grid-cols-2 px-12" >
         <div className="col-span-1 space-y-6 py-12 text-center px-8">
           <p className="text-3xl font-medium text-gray-600">DESPRE NOI </p>
           <p className="text-2xl font-light text-gray-500">

@@ -6,7 +6,10 @@ import {
   FaFacebook,
   FaInstagram,
   FaWhatsapp,
+  FaMailchimp,
+  FaMailBulk,
 } from "react-icons/fa";
+import {GoMail} from 'react-icons/go';
 import Image from "next/image";
 import Logo from "../public/cmgLogo2.png";
 const navbar = () => {
@@ -17,7 +20,7 @@ const navbar = () => {
           <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
             <div className="flex flex-row space-x-2">
               <FaMapMarkerAlt className="w-5 h-5 text-gray-500" />
-              <p>Strada principal Nr. 452, Vlădești 247740</p>
+              <p>Strada principală Nr. 452, Vlădești 247740</p>
             </div>
             <div className="flex flex-row space-x-2">
                 <FaMobileAlt className="w-5 h-5 text-gray-500" />
@@ -40,6 +43,10 @@ const navbar = () => {
             <a href="https://wa.me/+40753917172">
               <FaWhatsapp className="w-6 h-6 text-gray-500" />
             </a>
+            <a href="mailto:autodezcmg@gmail.com">
+              <GoMail className="w-6 h-6 text-gray-500" />
+            </a>
+          
           </div>
         </div>
       </div>
@@ -110,32 +117,32 @@ const navbar = () => {
               <li>
                 {/* <Link href="/aboutus"> */}
                   <a
-                    href="#sectiononehomepage"
+                    href="#about"
                     className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
                   >
-                    ABOUT
+                    DESPRE NOI
                   </a>
                 {/* </Link> */}
               </li>
               <li>
-                <Link href="/services">
+                {/* <Link href="/services"> */}
                   <a
-                    href="#"
+                    href="#why"
                     className="block py-2 pr-4 pl-3 text-gray-500   md:hover:text-yellow-500 md:p-0 "
                   >
-                    SERVICES
+                    DE CE NOI?
                   </a>
-                </Link>
+                {/* </Link> */}
               </li>
               <li>
-                <Link href="/contact">
+                {/* <Link href="/contact"> */}
                   <a
-                    href="#"
+                    href="#contact"
                     className="block py-2 pr-4 pl-3 text-gray-500  md:hover:text-yellow-500 md:p-0 "
                   >
                     CONTACT
                   </a>
-                </Link>
+                {/* </Link> */}
               </li>
             </ul>
           </div>

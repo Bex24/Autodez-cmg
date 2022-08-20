@@ -14,42 +14,47 @@ import {
 } from "react-icons/fa";
 import Image from "next/image";
 import Logo from "../public/cmgLogo2.png";
+import { GoMail } from "react-icons/go";
 const footer = () => {
   return (
     <div>
-      <div className="bg-gray-100 py-16 px-16">
+      <div className="bg-gray-100 pt-12 px-12">
         <div className="container mx-auto flex flex-col space-y-24 ">
           <div className="grid lg:grid-cols-3 gap-20">
             <div className="col-span-1 flex flex-row space-x-3">
               <FaMapMarkedAlt className="w-12 h-12 text-amber-600  p-1" />
               <div className="space-y-2">
-                <p className="text-gray-500">ADDRESS</p>
+                <p className="text-gray-500">ADRESA</p>
                 <p className="text-gray-600 font-medium">
-                  2507 PARKER BOULEVARD OAKLAND, CA 76107
+                  Strada principal Nr. 452, Vlădești 247740, Vâlcea
                 </p>
               </div>
             </div>
             <div className="col-span-1 flex flex-row space-x-3">
               <FaPhoneAlt className="w-12 h-12 text-amber-600  p-1" />
               <div className="space-y-2">
-                <p className="text-gray-500">PHONES</p>
-                <p className="text-gray-600 font-medium">
-                  BOOK A RIDE: (0481) 123 987 2411 OFFICE: (0481) 123 987 2412
-                </p>
+                <p className="text-gray-500">TELEFOANE</p>
+                <a href="tel:+40753917172">
+                  <p className="text-gray-600 font-medium">0753 917 172</p>
+                </a>
+                <a href="tel:+40749316106">
+                  <p className="text-gray-600 font-medium">0749 316 106</p>
+                </a>
               </div>
             </div>
             <div className="col-span-1 flex flex-row space-x-3">
               <FaRegClock className="w-12 h-12 text-amber-600  p-1" />
               <div className="space-y-2">
-                <p className="text-gray-500">WORKING HOURS</p>
+                <p className="text-gray-500">PROGRAM</p>
                 <p className="text-gray-600 font-medium">
-                  MON-SAT: 07:00 - 17:00 SUN: CLOSED
+                  Luni - Sambata: 09:00 - 18:00
                 </p>
+                <p className="text-gray-600 font-medium">Duminica: Inchis</p>
               </div>
             </div>
           </div>
           <div className="">
-            <div className="">
+            {/* <div className="">
               <Image src={Logo} alt="Logo" />
 
               <p className="text-gray-500">
@@ -57,7 +62,8 @@ const footer = () => {
                 What started as a small company has grown into a premier
                 limousine and private transportation company.
               </p>
-            </div>
+             
+            </div> */}
             {/* <div className="col-span-1 space-y-8">
               <div className="flex flex-col space-y-2">
                 <p className="text-gray-600 font-medium">OUR SERVICES</p>
@@ -142,11 +148,20 @@ const footer = () => {
       </div>
 
       <div className="py-8 container mx-auto flex flex-row justify-between">
-        <p>Copyright 2021 DriverUp Theme by Wael Hassine</p>
+        <p>Copyright 2022 Top Autodez CMG</p>
         <div className="flex flex-row space-x-3">
-          <FaFacebook className="w-5 h-5 text-gray-500" />
-          <FaInstagram className="w-5 h-5 text-gray-500" />
-          <FaWhatsapp className="w-5 h-5 text-gray-500" />
+          <a
+            href="https://www.facebook.com/Autodezcmg/?ref=py_c"
+            target="_blank"
+          >
+            <FaFacebook className="w-6 h-6 text-gray-500" />
+          </a>
+          <a href="https://wa.me/+40753917172">
+            <FaWhatsapp className="w-6 h-6 text-gray-500" />
+          </a>
+          <a href="mailto:autodezcmg@gmail.com">
+            <GoMail className="w-6 h-6 text-gray-500" />
+          </a>
         </div>
       </div>
     </div>
