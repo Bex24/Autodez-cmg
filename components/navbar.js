@@ -36,7 +36,7 @@ const navbar = () => {
           <div className="flex flex-row space-x-4  justify-center items-center ">
             <a
               href="https://www.facebook.com/Autodezcmg/?ref=py_c"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <FaFacebook className="w-6 h-6 text-gray-500" />
             </a>
@@ -57,7 +57,7 @@ const navbar = () => {
               <Image src={Logo} alt="Logo" />
             </a>
           </Link>
-          <div className="flex md:order-2">
+          <div className="flex">
             {/* <button
               type="button"
               className="text-gray-700 hover:text-white hover:bg-yellow-600 border-2 border-yellow-500   rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "

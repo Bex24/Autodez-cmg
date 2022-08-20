@@ -14,10 +14,10 @@ const ContentThere = () => {
                 width="700"
                 height="440"
                 src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=top%20autodez%20cmg+(top%20autodez%20cmg)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
-                frameborder="0"
+                frameBorder="0"
                 scrolling="no"
-                marginheight="0"
-                marginwidth="0"
+                marginHeight="0"
+                marginWidth="0"
                 className="sm: max-w-full"
               ></iframe>
             </div>

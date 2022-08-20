@@ -152,7 +152,7 @@ const footer = () => {
         <div className="flex flex-row space-x-3">
           <a
             href="https://www.facebook.com/Autodezcmg/?ref=py_c"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <FaFacebook className="w-6 h-6 text-gray-500" />
           </a>
