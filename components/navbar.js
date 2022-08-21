@@ -52,11 +52,11 @@ const navbar = () => {
       </div>
       <nav className=" px-2 sm:px-4 py-5 ">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-          {/* <Link href="/"> */}
-            <a href="/" className="flex">
+          <Link href="/">
+            <a href="#" className="flex">
               <Image src={Logo} alt="Logo" />
             </a>
-          {/* </Link> */}
+          </Link>
           <div className="flex">
             {/* <button
               type="button"
