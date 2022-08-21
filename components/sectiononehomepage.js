@@ -7,12 +7,12 @@ import Image4 from "../public/nissan.jpeg";
 import Image5 from "../public/subaru.jpeg";
 const Contents = () => {
   return (
-    <div className="container mx-auto py-12 space-y-20 w-full sm:flex-col-reverse" id="about">
+    <div className="container mx-auto py-12 space-y-20 w-full" id="about">
       <div className=" lg:flex lg:flex-row justify-center px-12">
         <div className="max-w-lg">
           <Image src={Image1} alt="Logo" />
         </div>
-        <div className="mt-12">
+        <div className="mt-12 hidden lg:inline-block">
           <Image src={Image2} alt="another Logo" />
         </div>
       </div>
@@ -26,11 +26,11 @@ const Contents = () => {
         </p>
         {/* <p className="text-xl text-gray-500">ANDRO Tomas - CHAIRMAN CEO</p> */}
       </div>
-      <div className="lg:grid lg:grid-cols-2 px-12" >
-        <div className="col-span-1 space-y-6 py-12 text-center px-8">
+      <div className="lg:grid lg:grid-cols-2 lg:px-12 px-8 flex flex-col-reverse" >
+        <div className="col-span-1 space-y-6 lg:py-12 py-6 text-center lg:px-8">
           <p className="text-3xl font-medium text-gray-600">DESPRE NOI </p>
-          <p className="text-2xl font-light text-gray-500">
-            TOP AUTODEZ CMG este un parc auto ce are ca principal obiect de
+          <p className="text-2xl font-light text-gray-500 text-justify">
+            <strong>TOP AUTODEZ CMG</strong> este un parc auto ce are ca principal obiect de
             activitate comercializarea de piese auto second hand. Dispunem de o
             gamă largă de piese auto pentru maşini de fabricaţie străină precum
             mărcile Audi, Bmw, Volkswagen, Opel, Nissan etc.

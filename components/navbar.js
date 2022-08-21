@@ -17,7 +17,7 @@ const navbar = () => {
     <div>
       <div className="bg-gray-100 ">
         <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-gray-500 py-3 w-full">
-          <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
+          <div className="lg:flex lg:flex-row flex flex-col justify-center items-center lg:space-x-12 lg:space-y-0 space-y-2">
             <div className="flex flex-row space-x-2">
               <FaMapMarkerAlt className="w-5 h-5 text-gray-500" />
               <p>Strada principală Nr. 452, Vlădești 247740</p>
@@ -52,11 +52,11 @@ const navbar = () => {
       </div>
       <nav className=" px-2 sm:px-4 py-5 ">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-          <Link href="/">
-            <a href="#" className="flex">
+          {/* <Link href="/"> */}
+            <a href="/" className="flex">
               <Image src={Logo} alt="Logo" />
             </a>
-          </Link>
+          {/* </Link> */}
           <div className="flex">
             {/* <button
               type="button"
@@ -90,7 +90,7 @@ const navbar = () => {
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path
+                <path 
                   fillRule="evenodd"
                   d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
                   clipRule="evenodd"

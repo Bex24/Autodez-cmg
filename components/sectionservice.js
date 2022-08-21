@@ -1,8 +1,8 @@
 import { FaEnvira, FaCodepen, FaBusAlt, FaDrawPolygon } from "react-icons/fa";
 const Service = () => {
   return (
-    <div className="container mx-auto lg:grid lg:grid-cols-6 gap-6 py-24 px-12 items-center place-content-center justify-center" id="service">
-      <div className="col-span-2 flex flex-col space-y-4 items-center justify-center text-center">
+    <div className="container mx-auto lg:grid lg:grid-cols-6 gap-6 py-12 px-12 items-center place-content-center justify-center" id="service">
+      <div className="col-span-2 flex flex-col space-y-4 items-center justify-center text-center mt-3 ">
         <FaEnvira className="w-16 h-16 text-amber-600 bg-gray-100 rounded-full p-1" />
         <p className="text-2xl font-medium text-gray-600">Eco-friendly</p>
         <p className="text-gray-600">
@@ -11,7 +11,7 @@ const Service = () => {
           nedorite.{" "}
         </p>
       </div>
-      <div className="col-span-2 flex flex-col space-y-4 items-center justify-center text-center">
+      <div className="col-span-2 flex flex-col space-y-4 items-center justify-center text-center mt-3">
         <FaCodepen className="w-16 h-16 text-amber-600 bg-gray-100 rounded-full p-1" />
         <p className="text-2xl font-medium text-gray-600">Preturi Rezonabile</p>
         <p className="text-gray-600">
@@ -20,7 +20,7 @@ const Service = () => {
           accesibile!
         </p>
       </div>
-      <div className="col-span-2 flex flex-col space-y-4 items-center justify-center text-center">
+      <div className="col-span-2 flex flex-col space-y-4 items-center justify-center text-center mt-3">
         <FaBusAlt className="w-16 h-16 text-amber-600 bg-gray-100 rounded-full p-1" />
         <p className="text-2xl font-medium text-gray-600">
           Vânzare de vehicule

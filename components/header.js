@@ -28,7 +28,7 @@ const header = () => {
           >
             <div className="h-screen bg-black bg-opacity-10 ">
               <div className="h-screen flex flex-col justify-center items-center space-y-6">
-                <p className="text-7xl text-white "> TOP AUTODEZ CMG</p>
+                <p className="text-7xl text-white text-center"> TOP AUTODEZ CMG</p>
                 <p className="text-2xl font-light text-white ">
                 Piese de calitate superioara
                 </p>
@@ -51,7 +51,7 @@ const header = () => {
           >
             <div className="h-screen bg-black bg-opacity-10 ">
               <div className="h-screen flex flex-col justify-center items-center space-y-6">
-              <p className="text-7xl text-white "> TOP AUTODEZ CMG</p>
+              <p className="text-7xl text-white text-center "> TOP AUTODEZ CMG</p>
                 <p className="text-2xl font-light text-white ">
                 Piese de calitate superioara
                 </p>
@@ -69,7 +69,7 @@ const header = () => {
           >
             <div className="h-screen bg-black bg-opacity-10 ">
               <div className="h-screen flex flex-col justify-center items-center space-y-6">
-              <p className="text-7xl text-white "> TOP AUTODEZ CMG</p>
+              <p className="text-7xl text-white text-center "> TOP AUTODEZ CMG</p>
                 {/* <p className="text-2xl font-light text-white ">
                 Piese de calitate superioara
                 </p> */}

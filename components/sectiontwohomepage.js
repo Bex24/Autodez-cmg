@@ -15,7 +15,7 @@ const ContentTwo = () => {
               backgroundImage: `url(/piese.png)`,  
             }}
           >
-            <div className="bg-black  hover:bg-opacity-5 bg-opacity-30 w-full h-full  flex items-end justify-start">
+            <div className="bg-black  hover:bg-opacity-20 bg-opacity-30 w-full h-full  flex items-end justify-start">
               <p className="text-white text-2xl font-medium p-8 uppercase text-center" >
               Piese de calitate superioara
               </p>
@@ -27,7 +27,7 @@ const ContentTwo = () => {
               backgroundImage: `url(/car.jpg)`,
             }}
           >
-            <div className="bg-black  hover:bg-opacity-5 bg-opacity-30 w-full h-full  flex items-end justify-start">
+            <div className="bg-black  hover:bg-opacity-20 bg-opacity-30 w-full h-full  flex items-end justify-start">
               <p className="text-white text-2xl font-medium p-8 uppercase text-center">
              Procesul de comanda este unul simplu si rapid
               </p>
@@ -39,8 +39,8 @@ const ContentTwo = () => {
               backgroundImage: `url(/pret2.jpg)`,
             }}
           >
-            <div className="bg-black  hover:bg-opacity-5 bg-opacity-30 w-full h-full  flex items-end justify-start">
-              <p className="text-white text-2xl font-medium p-8 uppercase text-center">
+            <div className="bg-black  hover:bg-opacity-20 bg-opacity-30 w-full h-full text-white flex items-end justify-start">
+              <p className=" text-2xl font-medium p-8 uppercase text-center">
               Raport calitate preț foarte bun
               </p>
             </div>
@@ -51,8 +51,8 @@ const ContentTwo = () => {
               backgroundImage: `url(/calitate.jpg)`,
             }}
           >
-            <div className="bg-black  hover:bg-opacity-5 bg-opacity-30 w-full h-full  flex items-end justify-start">
-              <p className="text-white text-2xl font-medium p-8 uppercase  text-center">  
+            <div className="bg-black  hover:bg-opacity-20 bg-opacity-30 w-full h-full text-white flex items-end justify-start">
+              <p className=" text-2xl font-medium p-8 uppercase  text-center">  
               Varietate mare de piese auto
               </p>
             </div>
@@ -63,7 +63,7 @@ const ContentTwo = () => {
               backgroundImage: `url(/curier.jpg)`,
             }}
           >
-            <div className="bg-black  hover:bg-opacity-5 bg-opacity-30 w-full h-full  flex items-end justify-start">
+            <div className="bg-black  hover:bg-opacity-20 bg-opacity-30 w-full h-full  flex items-end justify-start">
               <p className="text-white text-2xl font-medium p-8 uppercase text-center">
                 Livrare oriunde in tara
               </p>

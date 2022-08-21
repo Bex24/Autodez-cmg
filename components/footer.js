@@ -18,8 +18,8 @@ import { GoMail } from "react-icons/go";
 const footer = () => {
   return (
     <div>
-      <div className="bg-gray-100 pt-12 px-12">
-        <div className="container mx-auto flex flex-col space-y-24 ">
+      <div className="bg-gray-100 py-12 px-12">
+        <div className="container mx-auto flex  space-y-24 ">
           <div className="grid lg:grid-cols-3 gap-20">
             <div className="col-span-1 flex flex-row space-x-3">
               <FaMapMarkedAlt className="w-12 h-12 text-amber-600  p-1" />
@@ -147,7 +147,7 @@ const footer = () => {
         </div>
       </div>
 
-      <div className="py-8 container mx-auto flex flex-row justify-between">
+      <div className="py-8 container mx-auto flex flex-row justify-between px-2">
         <p>Copyright 2022 Top Autodez CMG</p>
         <div className="flex flex-row space-x-3">
           <a
